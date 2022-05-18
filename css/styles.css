@@ -145,6 +145,7 @@
     padding: 3px;
     background: linear-gradient(45deg, rgb(0, 255, 213), rgb(255, 94, 0) 40%, rgb(98, 0, 255) 90%);
     border: 5px solid #fff;
+    cursor: pointer;
 }
 .username{
     width: 100%;
@@ -155,8 +156,6 @@
     color: rgba(0, 0, 0, 0.5)
 }
 /*inician estilos de Mario*/
-/* presentacion*/
-/* presentacion*/
 .pres-1{
     display: flex;
     width: 90%;
@@ -165,18 +164,21 @@
     margin-bottom: 10px;
 }
 .pres-1 img{
-    width: 240px;
+    width: 150px;
+    height: 150px;
     border-radius:50% ;
     cursor: pointer;
 }
 .pres{
-    width: 40%;
+    width: 50%;
 
 }
 .nav-2{
     display: flex;
     justify-content: space-between;
-    border: 1px solid #dbd;
+    border: 1px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
 }
 .nav-2 button{
     cursor: pointer;
@@ -193,12 +195,22 @@
     align-self: center;
 }
 .con-2{
+    height: 20px;
     display: flex;
     font-size: 20px;
     justify-content: space-between;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    
 
+}
+.margin{
+    margin-bottom: 20px;
+}
+.margin-left:first-child{
+    margin-left: 0;
+}
+.margin-left {
+    font-size: 16px;
+    margin-right: 40px;
 }
 .con-3{
     
