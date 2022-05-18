@@ -10,8 +10,8 @@
     padding: 0 4px;
   }
   .column {
-    flex: 25%;
-    max-width: 25%;
+    flex: 20%;
+    max-width: 20%;
     padding: 0 4px;
   }
   .column img {
@@ -24,6 +24,14 @@
       max-width: 50%;
     }
   }
+
+  /*@media (max-width: 800px) {
+    .column {
+      flex: 60%;
+      max-width: 60%;
+    }
+  }*/
+
   @media (max-width: 400px) {
     .column {
       flex: 100%;
